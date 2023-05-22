@@ -80,30 +80,3 @@ body {
     display: flex;
     gap: 10px;
   }
-  
-  /* Iconos */
- /*  #controls button::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Font Awesome 6 Free";
-    font-weight: 400;
-  }
-  
-  #playButton::before {
-    font: var(--fa-font-solid);
-    content: "\f04b";
-  }
-  
-  #pauseButton::before {
-    content: "\f04c";
-  }
-  
-  #volumeUpButton::before {
-    content: "\f028";
-  }
-  
-  #volumeDownButton::before {
-    content: "\f027";
-  }
-   */

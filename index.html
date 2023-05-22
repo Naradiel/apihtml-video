@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reproductor de vídeo | Práctica Samsung DessArolladoras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h1>Reproductor de vídeo</h1>
+    <button id="loadButton">Cargar archivo</button>
+    <input type="file" id="fileInput">
+    <br><br>
+    <div id="loadingMessage" style="display: none;">Cargando archivo de vídeo...</div>
+    <div id="videoContainer">
+        <video id="videoPlayer" controls style="display: none;"></video>
+        <div id="controls" style="display: none;">
+            <button id="playButton"><i class="fas fa-play"></i> Reproducir</button>
+            <button id="pauseButton"><i class="fas fa-pause"></i> Pausar</button>
+            <br><br>
+            Volumen:
+            <button id="volumeUpButton"><i class="fas fa-volume-up"></i></button>
+            <button id="volumeDownButton"><i class="fas fa-volume-down"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
